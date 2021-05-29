@@ -112,7 +112,7 @@ Write a short description of a statistical study that can quantify how the Mecha
 
 ## Study Design: MechaCar vs Competition
 
-I think that the fuel efficiency of the mechanical is better than the competition.  The MechaCar gets about 100 miles per gallon.  That is over twice as much as the average car.
+I think that the fuel efficiency of the MechaCar is better than the competition.  The MechaCar gets about 100 miles per gallon.  That is over twice as much as the average car.
 What metric or metrics are you going to test? I am going to test the fuel efficiency of the MechaCar. I will use the miles per gallon that the car gets. To answer the question of What is the null hypothesis or alternative hypothesis? The null hypothesis is that the MechaCar does not have a better fuel efficiency than the competition. The alternative hypothesis is that the MechaCar does have a better fuel efficiency than the competition. To be able to answer, What statistical test would you use to test the hypothesis? And why? I would use the z-test. I would use the z-test because it is an excellent test to use when you have limited information. To be able to address What data is needed to run the statistical test? I would need the fuel efficiency of the MechaCar and the fuel efficiency of the competition.
 
 
