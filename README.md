@@ -48,6 +48,8 @@ To Deliver:
 
 Results on Deliverable:
 Resulting Model:
+![](Resources/D1code.PNG)
+
 
 # Deliverable 2: Create Visualizations for the Trip Analysis 
 The MechaCar Suspension_Coil.csv dataset contains the results from multiple production lots. In this dataset, the weight capacities of multiple suspension coils were tested to determine if the manufacturing process is consistent across production lots. Using your knowledge of R, you’ll create a summary statistics table to show:
@@ -61,6 +63,7 @@ Technical Analysis
 Download the Suspension_Coil.csv file, and place it in the active directory for your R session.
 In your MechaCarChallenge.RScript, import and read in the Suspension_Coil.csv file as a table.
 Write an RScript that creates a total_summary dataframe using the summarize() function to get the mean, median, variance, and standard deviation of the suspension coil’s PSI column.
+
 Your total_summary dataframe should look like this:
 
 Results on Deliverable:
@@ -89,6 +92,9 @@ In your MechaCarChallenge.RScript, write an RScript using the t.test() function 
 Next, write three more RScripts in your MechaCarChallenge.RScript using the t.test() function and its subset() argument to determine if the PSI for each manufacturing lot is statistically different from the population mean of 1,500 pounds per square inch.
 Results on Deliverable:
 Resulting Model:
+![](Resources/D2Code.PNG)
+
+![](Resources/D3Code.PNG)
 
 # Written Summary
 In your README, create a subheading ## T-Tests on Suspension Coils, then briefly summarize your interpretation and findings for the t-test results. Include screenshots of the t-test to support your summary.
@@ -103,11 +109,12 @@ Follow the instructions below to complete Deliverable 4.
 
 In your README, create a subheading ## Study Design: MechaCar vs Competition.
 Write a short description of a statistical study that can quantify how the MechaCar performs against the competition. In your study design, think critically about what metrics would be of interest to a consumer: for a few examples, cost, city or highway fuel efficiency, horse power, maintenance cost, or safety rating.
-In your description, address the following questions:
-What metric or metrics are you going to test?
-What is the null hypothesis or alternative hypothesis?
-What statistical test would you use to test the hypothesis? And why?
-What data is needed to run the statistical test?
+
+## Study Design: MechaCar vs Competition
+
+I think that the fuel efficiency of the MechaCar is better than the competition.  The MechaCar gets about 100 miles per gallon.  That is over twice as much as the average car.
+What metric or metrics are you going to test? I am going to test the fuel efficiency of the MechaCar. I will use the miles per gallon that the car gets. To answer the question of What is the null hypothesis or alternative hypothesis? The null hypothesis is that the MechaCar does not have a better fuel efficiency than the competition. The alternative hypothesis is that the MechaCar does have a better fuel efficiency than the competition. To be able to answer, What statistical test would you use to test the hypothesis? And why? I would use the z-test. I would use the z-test because it is an excellent test to use when you have limited information. To be able to address What data is needed to run the statistical test? I would need the fuel efficiency of the MechaCar and the fuel efficiency of the competition.
+
 
 # Summary
 
@@ -126,3 +133,6 @@ In this module I was able to learn the followig topics in R Script.
 - Implement and evaluate a chi-squared test for a given dataset.
 - Identify key characteristics of A/B and A/A testing.
 - Determine the most appropriate statistical test for a given hypothesis and dataset.
+
+![](Resources/summary.PNG)
+
