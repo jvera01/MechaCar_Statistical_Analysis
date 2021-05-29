@@ -1,5 +1,7 @@
 # MechaCar_Statistical_Analysis
 
+![](Resources/header.PNG)
+
 # Overview & Background
 
 A few weeks after starting his new role, Jeremy is approached by upper management about a special project. AutosRUs’ newest prototype, the MechaCar, is suffering from production troubles that are blocking the manufacturing team’s progress. AutosRUs’ upper management has called on Jeremy and the data analytics team to review the production data for insights that may help the manufacturing team.
@@ -12,6 +14,8 @@ Run t-tests to determine if the manufacturing lots are statistically different f
 Design a statistical study to compare vehicle performance of the MechaCar vehicles against vehicles from other manufacturers. For each statistical analysis, you’ll write a summary interpretation of the findings.
 
 The client is asking for a statistical analysis of MechaCar due to its production troubles which is blocking the manufacturing team's progress.
+
+![](Resources/AutoRUs.png)
 
 # Purpose
 The purpose of this analysis is to predict the mpg of MechaCar prototypes, collect summary statistics on the pounds per square inch(PSI) of the suspension coils, and determine if the manufacturing lots are statistically different from the mean population.
@@ -62,12 +66,12 @@ Your total_summary dataframe should look like this:
 Results on Deliverable:
 Resulting Model:
 
-D2.png
+![](Resources/D2.png)
 
 Write an RScript that creates a lot_summary dataframe using the group_by() and the summarize() functions to group each manufacturing lot by the mean, median, variance, and standard deviation of the suspension coil’s PSI column.
 Your lot_summary dataframe should look like this:
 
-D2.1.png
+![](Resources/D2.1.png)
 
 # Written Summary
 In your README, create a subheading ## Summary Statistics on Suspension Coils, and write a short summary using screenshots from your total_summary and lot_summary dataframes, and address the following question:
@@ -106,3 +110,19 @@ What statistical test would you use to test the hypothesis? And why?
 What data is needed to run the statistical test?
 
 # Summary
+
+In Deliverable 1: I was able to create Linear Regression to Predict MPG in the Deliverable 2: Summary Statistics on Suspension Coils in Deliverable 3: T-Test on Suspension Coils
+and in the Deliverable 4: Design a Study Comparing the MechaCar to the Competition. 
+
+In this module I was able to learn the followig topics in R Script.
+
+- Load, clean up, and reshape datasets using tidyverse in R.
+- Visualize datasets with basic plots such as line, bar, and scatter plots using ggplot2.
+- Generate and interpret more complex plots such as boxplots and heatmaps using ggplot2.
+- Plot and identify distribution characteristics of a given dataset.
+- Formulate null and alternative hypothesis tests for a given data problem.
+- Implement and evaluate simple linear regression and multiple linear regression models for a given dataset.
+- Implement and evaluate the one-sample t-Tests, two-sample t-Tests, and analysis of variance (ANOVA) models for a given dataset.
+- Implement and evaluate a chi-squared test for a given dataset.
+- Identify key characteristics of A/B and A/A testing.
+- Determine the most appropriate statistical test for a given hypothesis and dataset.
