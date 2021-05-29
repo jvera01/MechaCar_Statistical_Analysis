@@ -48,6 +48,8 @@ To Deliver:
 
 Results on Deliverable:
 Resulting Model:
+![](Resources/D1code.PNG)
+
 
 # Deliverable 2: Create Visualizations for the Trip Analysis 
 The MechaCar Suspension_Coil.csv dataset contains the results from multiple production lots. In this dataset, the weight capacities of multiple suspension coils were tested to determine if the manufacturing process is consistent across production lots. Using your knowledge of R, you’ll create a summary statistics table to show:
@@ -61,6 +63,9 @@ Technical Analysis
 Download the Suspension_Coil.csv file, and place it in the active directory for your R session.
 In your MechaCarChallenge.RScript, import and read in the Suspension_Coil.csv file as a table.
 Write an RScript that creates a total_summary dataframe using the summarize() function to get the mean, median, variance, and standard deviation of the suspension coil’s PSI column.
+
+![](Resources/D2Code.PNG)
+
 Your total_summary dataframe should look like this:
 
 Results on Deliverable:
