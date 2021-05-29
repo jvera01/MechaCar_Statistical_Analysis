@@ -2,7 +2,7 @@
 
 ![](Resources/header.PNG)
 
-# Overview & Background
+# Overview & Purpose
 
 A few weeks after starting his new role, Jeremy is approached by upper management about a special project. AutosRUs’ newest prototype, the MechaCar, is suffering from production troubles that are blocking the manufacturing team’s progress. AutosRUs’ upper management has called on Jeremy and the data analytics team to review the production data for insights that may help the manufacturing team.
 
@@ -17,15 +17,14 @@ The client is asking for a statistical analysis of MechaCar due to its productio
 
 ![](Resources/AutoRUs.png)
 
-# Purpose
 
 
 This new assignment consists of three technical analysis deliverables and a proposal for further statistical study. You’ll submit the following:
 
-Deliverable 1: Linear Regression to Predict MPG
-Deliverable 2: Summary Statistics on Suspension Coils
-Deliverable 3: T-Test on Suspension Coils
-Deliverable 4: Design a Study Comparing the MechaCar to the Competition
+- Deliverable 1: Linear Regression to Predict MPG
+- Deliverable 2: Summary Statistics on Suspension Coils
+- Deliverable 3: T-Test on Suspension Coils
+- Deliverable 4: Design a Study Comparing the MechaCar to the Competition
 
 # Results 
 
@@ -41,7 +40,6 @@ To Deliver:
 - There is a summary that addresses all three questions
 
 # Written Summary
-## Linear Regression to Predict MPG
 In your README, create a subheading, ## Linear Regression to Predict MPG, and write a short summary using a screenshot of the output from the linear regression, and address the following questions:
 
 Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
@@ -49,8 +47,6 @@ Is the slope of the linear model considered to be zero? Why or why not?
 Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
 ## Linear Regression to Predict MPG
 
-Results on Deliverable:
-Resulting Model:
 ![](Resources/D1code.PNG)
 
 
@@ -61,30 +57,28 @@ The suspension coil’s PSI continuous variable across all manufacturing lots
 The following PSI metrics for each lot: mean, median, variance, and standard deviation.
 Then, in the README.md, you’ll briefly detail and interpret the suspension coil summary statistics.
 
-
 Technical Analysis
 Download the Suspension_Coil.csv file, and place it in the active directory for your R session.
 In your MechaCarChallenge.RScript, import and read in the Suspension_Coil.csv file as a table.
 Write an RScript that creates a total_summary dataframe using the summarize() function to get the mean, median, variance, and standard deviation of the suspension coil’s PSI column.
-
-Your total_summary dataframe should look like this:
-
-- Results on Deliverable:
-- Resulting Model:
-
-![](Resources/D2.png)
-
-Write an RScript that creates a lot_summary dataframe using the group_by() and the summarize() functions to group each manufacturing lot by the mean, median, variance, and standard deviation of the suspension coil’s PSI column.
-Your lot_summary dataframe should look like this:
-
-![](Resources/D2.1.png)
-
 # Written Summary
 In your README, create a subheading ## Summary Statistics on Suspension Coils, and write a short summary using screenshots from your total_summary and lot_summary dataframes, and address the following question:
 
 The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
 ## Summary Statistics on Suspension Coils
 
+The current manufacturing data meets this design specification for manufacturing lot 1 and 2 but not for lot 3. Image 3 shows that the variance for lot 3 is more than 100 at 170.29 while lot 1 and 2 are less than 10 at .97 and 7.46. So because the variance between lots is so large there is a possibility that the front suspension coils can have a difference as much as 170 pounds per square inch while the rear suspension coils could be as low as 7.46 pounds per square inch - the rear suspension coils which are just 2 percent of the weight.
+
+Your total_summary dataframe should look like this:
+
+
+![](Resources/D2.png)
+
+Write an RScript that creates a lot_summary dataframe using the group_by() and the summarize() functions to group each manufacturing lot by the mean, median, variance, and standard deviation of the suspension coil’s PSI column.
+
+Your lot_summary dataframe should look like this:
+
+![](Resources/D2.1.png)
 
 
 # Deliverable 3: T-Tests on Suspension Coils
@@ -96,8 +90,6 @@ Technical Analysis
 In your MechaCarChallenge.RScript, write an RScript using the t.test() function to determine if the PSI across all manufacturing lots is statistically different from the population mean of 1,500 pounds per square inch.
 Next, write three more RScripts in your MechaCarChallenge.RScript using the t.test() function and its subset() argument to determine if the PSI for each manufacturing lot is statistically different from the population mean of 1,500 pounds per square inch.
 
-- Results on Deliverable:
-- Resulting Model:
 
 # Written Summary
 In your README, create a subheading ## T-Tests on Suspension Coils, then briefly summarize your interpretation and findings for the t-test results. Include screenshots of the t-test to support your summary.
