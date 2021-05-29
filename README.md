@@ -18,10 +18,7 @@ The client is asking for a statistical analysis of MechaCar due to its productio
 ![](Resources/AutoRUs.png)
 
 # Purpose
-The purpose of this analysis is to predict the mpg of MechaCar prototypes, collect summary statistics on the pounds per square inch(PSI) of the suspension coils, and determine if the manufacturing lots are statistically different from the mean population.
 
-Linear Regression to Predict MPG
-Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset? Image 1 shows that the vehicle weight, spoiler angle, and the AWD provided a non-random amount of variance to the mpg values in the dataset.
 
 This new assignment consists of three technical analysis deliverables and a proposal for further statistical study. You’ll submit the following:
 
@@ -45,6 +42,12 @@ To Deliver:
 
 # Written Summary
 ## Linear Regression to Predict MPG
+In your README, create a subheading, ## Linear Regression to Predict MPG, and write a short summary using a screenshot of the output from the linear regression, and address the following questions:
+
+Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
+Is the slope of the linear model considered to be zero? Why or why not?
+Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
+## Linear Regression to Predict MPG
 
 Results on Deliverable:
 Resulting Model:
@@ -66,8 +69,8 @@ Write an RScript that creates a total_summary dataframe using the summarize() fu
 
 Your total_summary dataframe should look like this:
 
-Results on Deliverable:
-Resulting Model:
+- Results on Deliverable:
+- Resulting Model:
 
 ![](Resources/D2.png)
 
@@ -82,6 +85,8 @@ In your README, create a subheading ## Summary Statistics on Suspension Coils, a
 The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
 ## Summary Statistics on Suspension Coils
 
+
+
 # Deliverable 3: T-Tests on Suspension Coils
 Using your knowledge of R, perform t-tests to determine if all manufacturing lots and each lot individually are statistically different from the population mean of 1,500 pounds per square inch.
 
@@ -90,15 +95,29 @@ Follow the instructions below to complete Deliverable 3.
 Technical Analysis
 In your MechaCarChallenge.RScript, write an RScript using the t.test() function to determine if the PSI across all manufacturing lots is statistically different from the population mean of 1,500 pounds per square inch.
 Next, write three more RScripts in your MechaCarChallenge.RScript using the t.test() function and its subset() argument to determine if the PSI for each manufacturing lot is statistically different from the population mean of 1,500 pounds per square inch.
-Results on Deliverable:
-Resulting Model:
-![](Resources/D2Code.PNG)
 
-![](Resources/D3Code.PNG)
+- Results on Deliverable:
+- Resulting Model:
 
 # Written Summary
 In your README, create a subheading ## T-Tests on Suspension Coils, then briefly summarize your interpretation and findings for the t-test results. Include screenshots of the t-test to support your summary.
 ## T-Tests on Suspension Coils
+
+We can see that there is not enough evidence to reject the null hypothesis. The two means are statistically similar; therefore, suspension coils across all lots are very close to the PSI of the population. It also shows the p-value of 0.06028, which is greater than 0.05; thus, the data is considered a normal distribution.
+
+![](Resources/D3T1.PNG)
+
+We can see that there is not enough evidence to reject the null hypothesis. The two means are statistically similar; therefore, Lot 1 suspension coils are very close to the PSI of the population. Image 5 also shows the p-value of 1, which is more significant than 0.05; thus, the data is considered a normal distribution.
+
+![](Resources/D3T2.PNG)
+
+We can see that there is not enough evidence to reject the null hypothesis. The two means are statistically similar; therefore, Lot 2 suspension coils are very close to the PSI of the population. Image 6 also shows the p-value of .6072, which is greater than 0.05; thus, the data is considered a normal distribution.
+
+![](Resources/D3T3.PNG)
+
+We can see that there is sufficient statistical evidence that the null hypothesis is not true; therefore, the null hypothesis is rejected. There is a statistical difference between the Lot 3 suspension coils and the PSI of the population. Image 7 also shows the p-value of .04168, which is less than 0.05; thus, the data is considered a skewed distribution.
+
+![](Resources/D3T4.PNG)
 
 
 # Deliverable 4: Design a Study Comparing the MechaCar to the Competition
