@@ -32,20 +32,18 @@ This new assignment consists of three technical analysis deliverables and a prop
 
 The MechaCar_mpg.csv dataset contains mpg test results for 50 prototype MechaCars. The MechaCar prototypes were produced using multiple design specifications to identify ideal vehicle performance. Multiple metrics, such as vehicle length, vehicle weight, spoiler angle, drivetrain, and ground clearance, were collected for each vehicle. Using your knowledge of R, you’ll design a linear model that predicts the mpg of MechaCar prototypes using several variables from the MechaCar_mpg.csv file. Then, you’ll write a short interpretation of the multiple linear regression results in the README.md.
 
-To Deliver:
-
-- The MechaCar_mpg.csv file is imported and read into a dataframe
-- An RScript is written for a linear regression model to be performed on all six variables
-- An RScript is written to create the statistical summary of the linear regression model with the intended p-values
-- There is a summary that addresses all three questions
-
 # Written Summary
 In your README, create a subheading, ## Linear Regression to Predict MPG, and write a short summary using a screenshot of the output from the linear regression, and address the following questions:
 
-Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
-Is the slope of the linear model considered to be zero? Why or why not?
-Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
 ## Linear Regression to Predict MPG
+1- Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
+Two variables provided a non-random amount of variance: The vehicle length and the ground_clearance. Both of these have extremely small p-value meaning that they had a high level of significance. It also should be noted that the intercept as had a high level of relevance, meaning that there are still other factors contributing to the variance of the miles per gallon of the MechaCar.
+
+2- Is the slope of the linear model considered to be zero? Why or why not?
+The slope of the linear model is not considered to be zero. The linear regression shows that some independent variables had a significant effect on the dependent variable. If  none of the independent variables affecting the dependent variable, then the linear regression would result in a near-zero slope.
+
+3- Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
+The r-squared value is the leading factor that the linear model will predict the mpg of the MechaCar. The fact is at 0.7149 mean that out of 100 instances. This model would approximately predict the mpg of the MechaCar correctly 71 times. It means that the model would be considered adequate. 
 
 ![](Resources/D1code.PNG)
 
@@ -67,7 +65,7 @@ In your README, create a subheading ## Summary Statistics on Suspension Coils, a
 The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
 ## Summary Statistics on Suspension Coils
 
-The current manufacturing data meets this design specification for manufacturing lot 1 and 2 but not for lot 3. Image 3 shows that the variance for lot 3 is more than 100 at 170.29 while lot 1 and 2 are less than 10 at .97 and 7.46. So because the variance between lots is so large there is a possibility that the front suspension coils can have a difference as much as 170 pounds per square inch while the rear suspension coils could be as low as 7.46 pounds per square inch - the rear suspension coils which are just 2 percent of the weight.
+The current manufacturing data meet this design specification for manufacturing lots 1 and 2 but not for lot 3. Image 3 shows that the variance for lot 3 is more than 100 at 170.29, while lots 1 and 2 are less than ten at .97 and 7.46. So because the variance between lots is so significant, there is a possibility that the front suspension coils can have a difference of as much as 170 pounds per square inch. In comparison, the rear suspension coils could be as low as 7.46 pounds per square inch - the rear suspension coils are just 2 percent of the weight.
 
 Your total_summary dataframe should look like this:
 
